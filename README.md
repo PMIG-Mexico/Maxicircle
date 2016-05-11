@@ -1,5 +1,5 @@
 # Maxicircle
-============
 
-__Leishmania mexicana maxicircle assembly__
+
+__Leishmania mexicana__** __maxicircle assembly__
 
