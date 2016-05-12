@@ -77,7 +77,8 @@ class sequenceClassification(FeatureFromGenBank):
 	def __init__(self,seq,out_dir):
 		genes=seq.sequencesDNA
 		genesID=[x.id for x in genes]
-		uniquegenes=list(set([x.upper() for x in genesID]))
+		genesID=[x.upper() for x in genesID]
+		uniquegenes=list(set(genesID))
 		current_path=os.getcwd()
 		try:
 			os.mkdir(out_dir)
@@ -93,7 +94,8 @@ class sequenceClassification(FeatureFromGenBank):
 		os.chdir(current_path)
 		proteins=seq.sequencesAA
 		protID=[x.name for x in proteins]
-		uniqueprot=list(set([x.upper() for x in protID]))
+		protID=[x.upper() for x in protID]
+		uniqueprot=list(set(protID))
 		try:
 			os.mkdir(out_dir+"/AA")
 		except OSError as exc:
