@@ -1,3 +1,4 @@
+#!/bin/bash
 cd AA/
 for i in $(ls *.faa); 
 do 
