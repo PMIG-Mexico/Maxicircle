@@ -1,0 +1,1527 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>COX2.genes.fna</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Leishmania_mexicana_maxicircle</BlastOutput_query-def>
+  <BlastOutput_query-len>22407</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Leishmania_mexicana_maxicircle</Iteration_query-def>
+  <Iteration_query-len>22407</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1</Hit_id>
+  <Hit_def>COII |Leishmania amazonensis|HQ586836</Hit_def>
+  <Hit_accession>1</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>917.059</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9932</Hsp_query-from>
+      <Hsp_query-to>10511</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>552</Hsp_identity>
+      <Hsp_positive>552</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>580</Hsp_align-len>
+      <Hsp_qseq>ATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTAC</Hsp_qseq>
+      <Hsp_hseq>ATCATTTTGAATGATTTTTTTACTTGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATTTGCATTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAACAATATTTATTGTACCTGAGATTTTACAGCATCAAAATTTATTGATGTATATTGGTTTATTATTGGCGGAATGTTTTCGTTAGGACTTTTACTCAGATTATGTTTATTATTGTATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGTGAAACAACTATATTTAGTAATTTAATTTTAGAAAGCGATTATATGATTGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGGTTATCTGCAGTTGATGTTATACATTCATTCACAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGCCGTTGTAATGAAATAGTTTTATTTTCAACAAACACTGCTACTGTATATGGTCAATGTAGTGAGTTATGTGGTGTCTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| |||  ||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||  |||||||||||||| | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||| ||||||||||||||||| ||  |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||||||||||||| || || ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|3</Hit_id>
+  <Hit_def>COII |Leishmania mexicana|HQ586845</Hit_def>
+  <Hit_accession>3</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>902.285</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9930</Hsp_query-from>
+      <Hsp_query-to>10504</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>577</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>546</Hsp_identity>
+      <Hsp_positive>546</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>575</Hsp_align-len>
+      <Hsp_qseq>TTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGT</Hsp_qseq>
+      <Hsp_hseq>TTATCATTTTGAATGATTTTTTTACTTGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATTTGCATTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAACAATATTTATTGTACCTGAGATTTTACAGCATCAAAATTTATTGATGTATATTGGTTTATTATTGGCGGAATGTTTTCGTTAGGACTTTTACTCAGATTATGTTTATTATTGTATTTTGGTCATTTAAATTTTGTTAGTTTTGACTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGTGAAACAACTATATTTAGTAATTTAATTTTAGAAAGCGATTATATGATTGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGGTTATCTGCAGTTGATGTTATACATTCATTCACAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGCCGTTGTAATGAAATAGTTTTTTTTTCAACAAACACTGCTACTGTATATGGTCAATGTAGTGAGTTATGTGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| |||  ||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||  |||||||||||||| | |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||| ||||||||||||||||| ||  |||||||||||||||||||||||||||||||||||| |||||||||||||||||||| |||||| |||||||||||||||||||||||||||| || || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|2</Hit_id>
+  <Hit_def>COII |Leishmania donovani|FJ416603</Hit_def>
+  <Hit_accession>2</Hit_accession>
+  <Hit_len>629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>819.186</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9918</Hsp_query-from>
+      <Hsp_query-to>10546</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>629</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>567</Hsp_identity>
+      <Hsp_positive>567</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>629</Hsp_align-len>
+      <Hsp_qseq>ATGGCTTTTATTTTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTATGCCGATAGTTATTTGTTTTATATAG</Hsp_qseq>
+      <Hsp_hseq>ATGGCTTTTATTTTATCATTTTGAATGATTTTTTTAATTGATTCTGTAATTGTTTTGTTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTTTGTTATTTTCAACATTTTTATTAGTGCCTAGATTAAATAATGTTTATTGTACTTGAGATTTTACAGCTTCTAAATATATTGATGTGTATTGATTTACTATTGGAGGGATGTTTTCATTAGGCCTTTTATTAAGGCTATGTCTGTTATTATATTTCGGTCATTTGAATTTTGTTAGTTTTGACTTATGTAAAGTTGTTGGGTTTCAATGGTATTGGGTTTATTTTATTTTTGGTGAAACAACAATATTTAGTAATTTGATTTTAGAAAGTGATTATATGATAGGTGATTTACGTTTACTGCAGTGCAATCATGTTTTAACTTTATTAAGTTTAGTTATATATAAGTTATGACTATCTGCTGTTGATGTTATACATTCATTTGCAATTTCAAGTTTAGGTATTAAGGTAGAGAACCTGGTCGTTGTAATGAGATAGTTTTATTTTCATCAAATACTGCCACAGTATATGGTCAATGTAGTGAATTATGTGGTGTTTTACATGGATTTATGCCAATAGTAATTTGTTTTATATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||| | |||||||| |||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||  ||| |||||||||| |||||||||| |||||||||||||| || |||| |||||| || ||||| ||||||||||| || |||||||| ||||| |||||| |  |  ||||| | ||| ||||||| |||||||| ||||||||||||||||| ||||||||||| || || |||||||| || || ||||||||||||||||| |||||||| ||||| |||||||| ||||||||||||||||||||||| ||||||||||| ||| | ||||| |||||||||||||| ||||| |||||||| ||||||||||||||| | ||||||||||||||||||||||| ||||||||||||||||||||| |||| ||||||||||||||||||||||||| |||||||||||||||||||| ||||| || |||||||||||||| || |||||||||||||||||||||||||||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|7</Hit_id>
+  <Hit_def>COII |Leishmania sp. MGER/CN/60/GS-GER20|HQ586841</Hit_def>
+  <Hit_accession>7</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>761.94</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9930</Hsp_query-from>
+      <Hsp_query-to>10521</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>532</Hsp_identity>
+      <Hsp_positive>532</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>592</Hsp_align-len>
+      <Hsp_qseq>TTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTAT</Hsp_qseq>
+      <Hsp_hseq>TTATCATTTTGGATGATTTTCTTACTTGACTCTGTAATTGTTTTGTTATCTTTTGTGTGTTTTGTTTGTATATGAATATGCGCTTTGTTATTTTCGACATTTTTATTAGTGTCTAAATTAAATAATGTTTATTGTACTTGAGATTTTACGGCATCTAAGTTTATTGATGTATATTGATTTACTATCGGAGGTATGTTTTCATTAGGACTTTTACTTAGGTTATGTTTGCTACTATACTTCGGGCATCTAAATTTTGTTAGTTTTGATTTGTGTAAAGTTGTTGGATTTCAATGGTATTGAGTTTACTTTATTTTCGGTGAAACAACAATATTTAGTAATTTAATTTTGGAAAGTGACTATATGATTGGTGACTTACGTTTATTGCAGTGTAATCATGTTTTAACGCTATTAAGTTTAGTTATATATAAGTTATGATTATCTGCTGTTGATGTTATACATTCGTTTGCAATTTCTAGTTTAGGTGTAAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCGAACAATGCTACAGTATATGGTCAATGTAGCGAACTCTGTGGTGTATTACATGGATTTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||| ||||| || ||||| |||||||| ||||||||||||||||||||||||||||||||||| ||| |||||||||| |||||||||||||| ||||||||||||||| |||||||||| ||||||||||| ||||| || |||||||| |||||||| |||||||| || || |||||||| ||||||||||||||| | ||||||||  ||||||| || || ||| |||||||||||||||||||||| |||||||| || || |||||||| || |||||||| |||||||| || |||||||| ||||| |||||||||||||| |||||||| |||||||| ||||| ||||| ||||| ||||||||||||||||||||  |||| |||||||| ||||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||| |||||| |||||||||||||| |||||| | |||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|20</Hit_id>
+  <Hit_def>COII |Leishmania tarentolae|NC_000894</Hit_def>
+  <Hit_accession>20</Hit_accession>
+  <Hit_len>629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>725.007</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9918</Hsp_query-from>
+      <Hsp_query-to>10546</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>629</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>550</Hsp_identity>
+      <Hsp_positive>550</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>629</Hsp_align-len>
+      <Hsp_qseq>ATGGCTTTTATTTTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTATGCCGATAGTTATTTGTTTTATATAG</Hsp_qseq>
+      <Hsp_hseq>ATGGCTTTTATATTATCATTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTGTTGTTTTCAACTGTATTATTAGTGTCAAAATTAAATAATATATATTGTACTTGAGACTTCACTGCTTCTAAGTTCATTGATGTTTACTGATTTACTATTGGTGGTATGTTTTCATTAGGACTTTTATTACGTTTATGTTTACTTTTATATTTTGGGCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTGGGATTTCAATGATACTGAGTTTATTTTATTTTTGGAGAAACTACAATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAATGTAATCATGTATTAACTTTATTAAGTTTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGCTGTAATGAAATAGTTCTATTTTCATCAAATAATGCCACAGTATATGGACAATGTAGTGAACTCTGTGGTGTCTTACATGGATTTATGCCAATAGTAATTTGTTTTATATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  |||| ||||||||  | |||||||| || |||||||||||||| |||||||| ||||| || || || || || || ||||| || || || ||||||||||| || |||||||| |||||||||||| | || ||||||||| |  |||||||||| |||||||||||||||||||||||||| |||||||| || || |||||||||||||||||||||||||||||||| ||||| || ||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||| ||||||||||| ||||| ||||| |||||||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||| ||||||||||||| | ||| || |||||||| ||||| || ||| | |||||||| ||||||||||||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|19</Hit_id>
+  <Hit_def>COII |Leishmania tarentolae|LEIKPMAX</Hit_def>
+  <Hit_accession>19</Hit_accession>
+  <Hit_len>629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>725.007</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9918</Hsp_query-from>
+      <Hsp_query-to>10546</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>629</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>550</Hsp_identity>
+      <Hsp_positive>550</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>629</Hsp_align-len>
+      <Hsp_qseq>ATGGCTTTTATTTTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTATGCCGATAGTTATTTGTTTTATATAG</Hsp_qseq>
+      <Hsp_hseq>ATGGCTTTTATATTATCATTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTGTTGTTTTCAACTGTATTATTAGTGTCAAAATTAAATAATATATATTGTACTTGAGACTTCACTGCTTCTAAGTTCATTGATGTTTACTGATTTACTATTGGTGGTATGTTTTCATTAGGACTTTTATTACGTTTATGTTTACTTTTATATTTTGGGCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTGGGATTTCAATGATACTGAGTTTATTTTATTTTTGGAGAAACTACAATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAATGTAATCATGTATTAACTTTATTAAGTTTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGCTGTAATGAAATAGTTCTATTTTCATCAAATAATGCCACAGTATATGGACAATGTAGTGAACTCTGTGGTGTCTTACATGGATTTATGCCAATAGTAATTTGTTTTATATAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  |||| ||||||||  | |||||||| || |||||||||||||| |||||||| ||||| || || || || || || ||||| || || || ||||||||||| || |||||||| |||||||||||| | || ||||||||| |  |||||||||| |||||||||||||||||||||||||| |||||||| || || |||||||||||||||||||||||||||||||| ||||| || ||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||| ||||||||||| ||||| ||||| |||||||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||| ||||||||||||||| ||||||||||||| | ||| || |||||||| ||||| || ||| | |||||||| ||||||||||||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|18</Hit_id>
+  <Hit_def>COII |Leishmania tarentolae|LEIKKPCO2A</Hit_def>
+  <Hit_accession>18</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>708.387</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9918</Hsp_query-from>
+      <Hsp_query-to>10547</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>634</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>551</Hsp_identity>
+      <Hsp_positive>551</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>634</Hsp_align-len>
+      <Hsp_qseq>ATGGCTTTTATTTTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGA--G-A-ACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTATGCCGATAGTTATTTGTTTTATATAGG</Hsp_qseq>
+      <Hsp_hseq>ATGGCTTTTATATTATCATTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTGTTGTTTTCAACTGTATTATTAGTGTCAAAATTAAATAATATATATTGTACTTGAGACTTCACTGCTTCTAAGTTCATTGATGTTTACTGATTTACTATTGGTGGTATGTTTTCATTAGGACTTTTATTACGTTTATGTTTACTTTTATATTTTGGGCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTGGGATTTCAATGATACTGAGTTTATTTTATTTTTGGAGAAACTACAATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAATGTAATCATGTATTAACTTTATTAAGTTTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGATTGTATACCTGGTCGCTGTAATGAAATAGTTCTATTTTCATCAAATAATGCCACAGTATATGGACAATGTAGTGAACTCTGTGGTGTCTTACATGGATTTATGCCAATAGTAATTTGTTTTATATAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  |||| ||||||||  | |||||||| || |||||||||||||| |||||||| ||||| || || || || || || ||||| || || || ||||||||||| || |||||||| |||||||||||| | || ||||||||| |  |||||||||| |||||||||||||||||||||||||| |||||||| || || |||||||||||||||||||||||||||||||| ||||| || ||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||| ||||||||||| ||||| ||||| |||||||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||  | | ||||||||| ||||||||||||||| ||||||||||||| | ||| || |||||||| ||||| || ||| | |||||||| ||||||||||||||||| ||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|21</Hit_id>
+  <Hit_def>COII |Leishmania tropica|HQ586847</Hit_def>
+  <Hit_accession>21</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>688.074</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9961</Hsp_query-from>
+      <Hsp_query-to>10512</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>492</Hsp_identity>
+      <Hsp_positive>492</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>552</Hsp_align-len>
+      <Hsp_qseq>CTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACA</Hsp_qseq>
+      <Hsp_hseq>CTGTAATTGTTTTGTTATCTTTTGTGTGTTTTGTTTGTATATGAATATGCGCTTTATTATTTTCAACATTTTTGTTAGTGTCAAAATTAAGTAATGTATATTGTACTTGAGATTTTACGGCATCAAAATTTATTGATGTATACTGATTTACTATTGGGGGTATGTTTTCATTAGGCCTCTTACTTAGGTTATGTTTGTTATTATATTTTGGCCACTTAAATTTTGTTAGTTTTGATTTATGCAAAGTTGTTGGGTTTCAATGGTATTGAGTTTATTTTATTTTCGGAGAAACAACAATATTTAGTAATTTAATTTTAGAAAGCGATTATATGATAGGTGATTTGCGTTTATTACAGTGTAATCATGTTCTAACATTATTAAGTTTAGTTATATATAAATTATGATTATCTGCTGTTGATGTTATACATTCATTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAGTAATGCCACTGTCTATGGACAATGTAGTGAACTTTGTGGCGTATTACA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||| ||||||||||||||||||||||||||||||||||| ||| | ||||||||||||||||| ||||| || ||||||| |||| | |||||||| ||||||||||| ||||| ||||||||||| ||||| || ||||||||||| || |||||||| ||||| || |||||| | |||||||| ||| |||||||||| || |||||||||||||||||||||||||| ||||| || || |||||||| || ||||||||||||||||| || |||||||| ||||| |||||||||||||||||||| ||||||||||| |||||||| || ||||||||||||||||||||| |||||||||| |||||||| |||||||| |||||||| ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | ||| ||||| ||||| ||||| || ||| | ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|17</Hit_id>
+  <Hit_def>COII |Leishmania sp. MHOM/CN/?/GS6|HQ586839</Hit_def>
+  <Hit_accession>17</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>684.381</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9930</Hsp_query-from>
+      <Hsp_query-to>10521</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>592</Hsp_align-len>
+      <Hsp_qseq>TTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTAT</Hsp_qseq>
+      <Hsp_hseq>TTATCCTTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTATTGTTTTCAACTGTATTATTAGTGTCAAAATTAAACAATATATATTGTACTTGAGATTTTACTGCTTCTAAATTTATTGATGTTTATTGATTTACTATAGGTGGTATGTTTTCATTAGGACTTTTATTACGTCTATGTTTACTTTTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTAGGATTCCAATGATATTGAGTTTATTTTATTTTTGGAGAAACTACTATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAGTGTAATCATGTATTAACTTTATTAAGTCTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCTTCAAATAATGCCACAGTATATGGACAATGTAGTGAACTTTGTGGTGTGTTACATGGATTTAT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  | || ||||||||  | |||||||| || |||||||| ||||| |||||||| ||||||||||| || || ||||||||||| || ||||| |||||||| || || |||||||| |||||||||||| | ||  |||||||| |  ||||||||||||||||||||||||||||||||||||| |||||||| ||||| || |||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||||||||||||||| ||||| ||||| ||| |||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||| | ||| || |||||||| ||||| || ||| | |||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|16</Hit_id>
+  <Hit_def>COII |Leishmania sp. MHOM/CN/?/GS5|HQ586842</Hit_def>
+  <Hit_accession>16</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>684.381</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9930</Hsp_query-from>
+      <Hsp_query-to>10521</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>592</Hsp_align-len>
+      <Hsp_qseq>TTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTAT</Hsp_qseq>
+      <Hsp_hseq>TTATCCTTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTATTGTTTTCAACTGTATTATTAGTGTCAAAATTAAACAATATATATTGTACTTGAGATTTTACTGCTTCTAAATTTATTGATGTTTATTGATTTACTATAGGTGGTATGTTTTCATTAGGACTTTTATTACGTCTATGTTTACTTTTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTAGGATTCCAATGATATTGAGTTTATTTTATTTTTGGAGAAACTACTATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAGTGTAATCATGTATTAACTTTATTAAGTCTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCTTCAAATAATGCCACAGTATATGGACAATGTAGTGAACTTTGTGGTGTGTTACATGGATTTAT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  | || ||||||||  | |||||||| || |||||||| ||||| |||||||| ||||||||||| || || ||||||||||| || ||||| |||||||| || || |||||||| |||||||||||| | ||  |||||||| |  ||||||||||||||||||||||||||||||||||||| |||||||| ||||| || |||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||||||||||||||| ||||| ||||| ||| |||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||| | ||| || |||||||| ||||| || ||| | |||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13</Hit_id>
+  <Hit_def>COII |Leishmania sp. MHOM/CN/90/SC10H2|HQ586850</Hit_def>
+  <Hit_accession>13</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>684.381</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9930</Hsp_query-from>
+      <Hsp_query-to>10521</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>592</Hsp_align-len>
+      <Hsp_qseq>TTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTAT</Hsp_qseq>
+      <Hsp_hseq>TTATCCTTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTATTGTTTTCAACTGTATTATTAGTGTCAAAATTAAACAATATATATTGTACTTGAGATTTTACTGCTTCTAAATTTATTGATGTTTATTGATTTACTATAGGTGGTATGTTTTCATTAGGACTTTTATTACGTCTATGTTTACTTTTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTAGGATTCCAATGATATTGAGTTTATTTTATTTTTGGAGAAACTACTATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAGTGTAATCATGTATTAACTTTATTAAGTCTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCTTCAAATAATGCCACAGTATATGGACAATGTAGTGAACTTTGTGGTGTGTTACATGGATTTAT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  | || ||||||||  | |||||||| || |||||||| ||||| |||||||| ||||||||||| || || ||||||||||| || ||||| |||||||| || || |||||||| |||||||||||| | ||  |||||||| |  ||||||||||||||||||||||||||||||||||||| |||||||| ||||| || |||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||||||||||||||| ||||| ||||| ||| |||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||| | ||| || |||||||| ||||| || ||| | |||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12</Hit_id>
+  <Hit_def>COII |Leishmania sp. MHOM/CN/84/SD1|HQ586846</Hit_def>
+  <Hit_accession>12</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>684.381</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9930</Hsp_query-from>
+      <Hsp_query-to>10521</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>592</Hsp_align-len>
+      <Hsp_qseq>TTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTAT</Hsp_qseq>
+      <Hsp_hseq>TTATCCTTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTATTGTTTTCAACTGTATTATTAGTGTCAAAATTAAACAATATATATTGTACTTGAGATTTTACTGCTTCTAAATTTATTGATGTTTATTGATTTACTATAGGTGGTATGTTTTCATTAGGACTTTTATTACGTCTATGTTTACTTTTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTAGGATTCCAATGATATTGAGTTTATTTTATTTTTGGAGAAACTACTATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAGTGTAATCATGTATTAACTTTATTAAGTCTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCTTCAAATAATGCCACAGTATATGGACAATGTAGTGAACTTTGTGGTGTGTTACATGGATTTAT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  | || ||||||||  | |||||||| || |||||||| ||||| |||||||| ||||||||||| || || ||||||||||| || ||||| |||||||| || || |||||||| |||||||||||| | ||  |||||||| |  ||||||||||||||||||||||||||||||||||||| |||||||| ||||| || |||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||||||||||||||| ||||| ||||| ||| |||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||| | ||| || |||||||| ||||| || ||| | |||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9</Hit_id>
+  <Hit_def>COII |Leishmania sp. MHOM/CN/80/XJ801|HQ586835</Hit_def>
+  <Hit_accession>9</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>684.381</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9930</Hsp_query-from>
+      <Hsp_query-to>10521</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>592</Hsp_align-len>
+      <Hsp_qseq>TTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTAT</Hsp_qseq>
+      <Hsp_hseq>TTATCCTTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTATTGTTTTCAACTGTATTATTAGTGTCAAAATTAAACAATATATATTGTACTTGAGATTTTACTGCTTCTAAATTTATTGATGTTTATTGATTTACTATAGGTGGTATGTTTTCATTAGGACTTTTATTACGTCTATGTTTACTTTTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTAGGATTCCAATGATATTGAGTTTATTTTATTTTTGGAGAAACTACTATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAGTGTAATCATGTATTAACTTTATTAAGTCTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCTTCAAATAATGCCACAGTATATGGACAATGTAGTGAACTTTGTGGTGTGTTACATGGATTTAT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  | || ||||||||  | |||||||| || |||||||| ||||| |||||||| ||||||||||| || || ||||||||||| || ||||| |||||||| || || |||||||| |||||||||||| | ||  |||||||| |  ||||||||||||||||||||||||||||||||||||| |||||||| ||||| || |||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||||||||||||||| ||||| ||||| ||| |||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||| | ||| || |||||||| ||||| || ||| | |||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|4</Hit_id>
+  <Hit_def>COII |Leishmania sp. GS4|HQ586837</Hit_def>
+  <Hit_accession>4</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>684.381</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9930</Hsp_query-from>
+      <Hsp_query-to>10521</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>592</Hsp_align-len>
+      <Hsp_qseq>TTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTAT</Hsp_qseq>
+      <Hsp_hseq>TTATCCTTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTATTGTTTTCAACTGTATTATTAGTGTCAAAATTAAACAATATATATTGTACTTGAGATTTTACTGCTTCTAAATTTATTGATGTTTATTGATTTACTATAGGTGGTATGTTTTCATTAGGACTTTTATTACGTCTATGTTTACTTTTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTAGGATTCCAATGATATTGAGTTTATTTTATTTTTGGAGAAACTACTATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAGTGTAATCATGTATTAACTTTATTAAGTCTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCTTCAAATAATGCCACAGTATATGGACAATGTAGTGAACTTTGTGGTGTCTTACATGGATTTAT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  | || ||||||||  | |||||||| || |||||||| ||||| |||||||| ||||||||||| || || ||||||||||| || ||||| |||||||| || || |||||||| |||||||||||| | ||  |||||||| |  ||||||||||||||||||||||||||||||||||||| |||||||| ||||| || |||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||||||||||||||| ||||| ||||| ||| |||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||| | ||| || |||||||| ||||| || ||| | |||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|11</Hit_id>
+  <Hit_def>COII |Leishmania sp. MHOM/CN/84/JS1|HQ586843</Hit_def>
+  <Hit_accession>11</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.534</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9961</Hsp_query-from>
+      <Hsp_query-to>10512</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>491</Hsp_identity>
+      <Hsp_positive>491</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>552</Hsp_align-len>
+      <Hsp_qseq>CTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACA</Hsp_qseq>
+      <Hsp_hseq>CTGTAATTGTTTTGTTATCTTTTGTGTGTTTTGTTTGTATATGAATATGCGCTTTATTATTTTCAACATTTTTGTTAGTGTCAAAATTAAGTAATGTATATTGTACTTGAGATTTTACGGCATCAAAATTTATTGATGTATACTGATTTACTATTGGGGGTATGTTTTCATTAGGCCTCTTACTTAGGTTATGTTTGTTATTATATTTTGGCCACTTAAATTTTGTTAGTTTTGATTTATGCAAAGTTGTTGGGTTTCAATGGTATTGAGTTTATTTTATTTTCGGAGAAACAACAATATTTAGTAATTTAATTTTAGAAAGCGATTATATGATAGGTGATTTGCGTTTATTACAGTGTAATCATGTTCTAACATTATTAAGTTTAGTTATATATAAATTATGATTATCTGCTGTTGATGTTATACATTCATTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAGTAATGCCACTGTCTATGGACAATGTAGTGAACTTTGTAGCGTATTACA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||| ||||||||||||||||||||||||||||||||||| ||| | ||||||||||||||||| ||||| || ||||||| |||| | |||||||| ||||||||||| ||||| ||||||||||| ||||| || ||||||||||| || |||||||| ||||| || |||||| | |||||||| ||| |||||||||| || |||||||||||||||||||||||||| ||||| || || |||||||| || ||||||||||||||||| || |||||||| ||||| |||||||||||||||||||| ||||||||||| |||||||| || ||||||||||||||||||||| |||||||||| |||||||| |||||||| |||||||| ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | ||| ||||| ||||| ||||| || ||| | ||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|10</Hit_id>
+  <Hit_def>COII |Leishmania sp. MHOM/CN/83/GS2|HQ586838</Hit_def>
+  <Hit_accession>10</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9930</Hsp_query-from>
+      <Hsp_query-to>10488</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>490</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>TTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATG</Hsp_qseq>
+      <Hsp_hseq>TTATCCTTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTATTGTTTTCAACTGTATTATTAGTGTCAAAATTAAACAATATATATTGTACTTGAGATTTTACTGCTTCTAAATTTATTGATGTTTATTGATTTACTATAGGTGGTATGTTTTCATTAGGACTTTTATTACGTCTATGTTTACTTTTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTAGGATTCCAATGATATTGAGTTTATTTTATTTTTGGAGAAACTACTATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAGTGTAATCATGTATTAACTTTATTAAGTCTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCTTCAAATAATGCCACAGTATATGGACAATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  | || ||||||||  | |||||||| || |||||||| ||||| |||||||| ||||||||||| || || ||||||||||| || ||||| |||||||| || || |||||||| |||||||||||| | ||  |||||||| |  ||||||||||||||||||||||||||||||||||||| |||||||| ||||| || |||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||||||||||||||| ||||| ||||| ||| |||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||| | ||| || |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6</Hit_id>
+  <Hit_def>COII |Leishmania sp. MCAN/CN/86/SC7|HQ586844</Hit_def>
+  <Hit_accession>6</Hit_accession>
+  <Hit_len>569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>649.294</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9936</Hsp_query-from>
+      <Hsp_query-to>10502</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>569</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>495</Hsp_identity>
+      <Hsp_positive>495</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>567</Hsp_align-len>
+      <Hsp_qseq>TTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTG</Hsp_qseq>
+      <Hsp_hseq>TTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTATTGTTTTCAACTGTATTATTAGTGTCAAAATTAAACAATATATATTGTACTTGAGATTTTACTGCTTCTAAATTTATTGATGTTTATTGATTTACTATAGGTGGTATGTTTTCATTAGGACTTTTATTACGTCTATGTTTACTTTTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTAGGATTCCAATGATATTGAGTTTATTTTATTTTTGGAGAAACTACTATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAGTGTAATCATGTATTAACTTTATTAAGTCTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCTTCAAATAATGCCACAGTATATGGACAATGTAGTGAACTTTGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  | || ||||||||  | |||||||| || |||||||| ||||| |||||||| ||||||||||| || || ||||||||||| || ||||| |||||||| || || |||||||| |||||||||||| | ||  |||||||| |  ||||||||||||||||||||||||||||||||||||| |||||||| ||||| || |||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||||||||||||||| ||||| ||||| ||| |||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||| | ||| || |||||||| ||||| || ||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8</Hit_id>
+  <Hit_def>COII |Leishmania sp. MHOM/CN/54/#3|HQ586848</Hit_def>
+  <Hit_accession>8</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>647.448</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>9936</Hsp_query-from>
+      <Hsp_query-to>10495</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>490</Hsp_identity>
+      <Hsp_positive>490</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>560</Hsp_align-len>
+      <Hsp_qseq>TTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAA</Hsp_qseq>
+      <Hsp_hseq>TTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTATTGTTTTCAACTGTATTATTAGTGTCAAAATTAAACAATATATATTGTACTTGAGATTTTACTGCTTCTAAATTTATTGATGTTTATTGATTTACTATAGGTGGTATGTTTTCATTAGGACTTTTATTACGTCTATGTTTACTTTTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTAGGATTCCAATGATATTGAGTTTATTTTATTTTTGGAGAAACTACTATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAGTGTAATCATGTATTAACTTTATTAAGTCTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGGAGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCTTCAAATAATGCCACAGTATATGGACAATGTAGTGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  | || ||||||||  | |||||||| || |||||||| ||||| |||||||| ||||||||||| || || ||||||||||| || ||||| |||||||| || || |||||||| |||||||||||| | ||  |||||||| |  ||||||||||||||||||||||||||||||||||||| |||||||| ||||| || |||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||||||||||||||| ||||| ||||| ||| |||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||| | ||| || |||||||| ||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>COII |Leishmania amazonensis|HM439238</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>614.208</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.07161e-176</Hsp_evalue>
+      <Hsp_query-from>9918</Hsp_query-from>
+      <Hsp_query-to>10300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>366</Hsp_identity>
+      <Hsp_positive>366</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>ATGGCTTTTATTTTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGCTTTTATTTTATCATTTTGAATGATTTTTTTACTTGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATTTGCATTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAACAATATTTATTGTACCTGAGATTTTACAGCATCAAAATTTATTGATGTATATTGGTTTATTATTGGCGGAATGTTTTCGTTAGGACTTTTACTCAGATTATGTTTATTATTGTATTTTGGTCATTTAAATTTTGTTAGTTTTGACTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGTGAAACAACTATATTTAGTAATTTAATTTTAGAAAGCGATTATATGATTGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| |||  ||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||  |||||||||||||| | |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||| ||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14</Hit_id>
+  <Hit_def>COII |Leishmania sp. MHOM/CN/90/WC|HQ586840</Hit_def>
+  <Hit_accession>14</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.575</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>3.06498e-157</Hsp_evalue>
+      <Hsp_query-from>9926</Hsp_query-from>
+      <Hsp_query-to>10411</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>423</Hsp_identity>
+      <Hsp_positive>423</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>486</Hsp_align-len>
+      <Hsp_qseq>TATTTTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGACGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTAGGACTTTTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGG</Hsp_qseq>
+      <Hsp_hseq>TATATTATCCTTTTGAATGATATTTTTATTAGATTCTGTTATTGTTTTGTTATCTTTTGTATGTTTTGTATGTGTGTGAATATGTGCATTATTGTTTTCAACTGTATTATTAGTGTCAAAATTAAACAATATATATTGTACTTGAGATTTTACTGCTTCTAAATTTATTGATGTTTATTGATTTACTATAGGTGGTATGTTTTCATTAGGACTTTTATTACGTCTATGTTTACTTTTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTGTGTAAAGTAGTAGGATTCCAATGATATTGAGTTTATTTTATTTTTGGAGAAACTACTATATTTAGTAATTTAATTTTAGAAAGTGATTATATGATAGGAGACTTACGTTTATTACAGTGTAATCATGTATTAACTTTATTAAGTCTAGTTATATATAAATTATGATTATCAGCTGTCGATGTAATACATTCATTTGCAATATCAAGTTTAGG</Hsp_hseq>
+      <Hsp_midline>||| ||||| ||||||||||| |||||| | ||||||||||||||||| ||||||||||| |||||||| ||| | |||||||||||  | || ||||||||  | |||||||| || |||||||| ||||| |||||||| ||||||||||| || || ||||||||||| || ||||| |||||||| || || |||||||| |||||||||||| | ||  |||||||| |  ||||||||||||||||||||||||||||||||||||| |||||||| ||||| || |||||||| |||||||||||||||||||| ||||| |||||||| |||||||||||||||||||||||||||||||| || || ||||| |||||||||||||||||||| ||||| ||||| ||| |||| |||||||| |||||||| || ||||| ||||| |||||||| |||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|26</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|FJ203996</Hit_def>
+  <Hit_accession>26</Hit_accession>
+  <Hit_len>629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.549</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>2.47212e-128</Hsp_evalue>
+      <Hsp_query-from>9923</Hsp_query-from>
+      <Hsp_query-to>10545</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>500</Hsp_identity>
+      <Hsp_positive>500</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>626</Hsp_align-len>
+      <Hsp_qseq>TTTTATTTTATCATTTTGAATGATTTTTTTACTCGATTCTGTTATTGTTTTATTATCTTTTGTGTGTTTTGTTTGTATATGAATATGTGCTCTGTTATTTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTATGCCGATAGTTATTTGTTTTATATA</Hsp_qseq>
+      <Hsp_hseq>TTTCATTCTATCATTTTGAATGATATTTTTAATAGATTCTGTTATAGTGTTATTATCTTTTGTTTGTTTTGTGTGTGTGTGAATATGTGCACTACTTCTTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGCTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGTAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACATTAGCTAGTTTAGGTATTAAGGTAGAGAACCGGGGAGGTGTAATGAAGTTATTTTATTCGCATCTAACAATGCAACAATATATGGGCAATGTAGCGAGTTATGTGGGGTATTACATGGATTCATGCCAATTGTTATATGTTTTATATA</Hsp_hseq>
+      <Hsp_midline>||| ||| |||||||||||||||| |||||| | ||||||||||| || |||||||||||||| |||||||| ||| | ||||||||||| ||  |  |||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||   ||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  ||||||||||||| |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| |||||||||| ||  | ||||||||| |  |||||||  |||| |||| ||| ||  ||||||| ||||| ||||| |||||||| || ||||||||||| ||||| || ||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|78</Hit_id>
+  <Hit_def>cox2 |Endotrypanum monterogeii|AF011397</Hit_def>
+  <Hit_accession>78</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.591</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>2.61606e-88</Hsp_evalue>
+      <Hsp_query-from>10202</Hsp_query-from>
+      <Hsp_query-to>10524</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>273</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>TAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACCTGGTCGTTGTAATGAAATAGTTTTATTTTCATCAAACACTGCTACTGTATATGGTCAATGCAGCGAATTATGTGGTGTTTTACATGGATTTATGCC</Hsp_qseq>
+      <Hsp_hseq>TAAGGTGATGGGGTTTCAGTGATATTGAGTTTATTTTATTTTTGGGGAAACTACAATTTTTAGTAATTTAATTTTAGAGAGTGATTACATGATTGGAGATTTAAGATTACTACAATGTAATAATGTATTAACTTTATTAAGTCTTGTCATATATAAGTTATGATTATCAGCAGTTGATGTTATCCATTCTTTTGCAGTATCAAGTTTAGGAATTAAAGTAGAGAACCTGGTCGTTGTAATGAATTAGTATTATTTTCTTCCAATAATGCTACAGTATATGGACAATGTAGTGAACTTTGTGGAGTTTTACATGGCTTCATGCC</Hsp_hseq>
+      <Hsp_midline>||| ||| | || ||||| ||||| |||||||||||||||||||| ||||| || || || ||||||||||||||||| |||||||| ||||| || |||||| | ||| |||| |||||| |||| ||||| ||||| ||| | || ||||||||||||||||| || || ||||||||||| ||||| |||||| | |||||||||||  ||||||||||||||||||||||||||||||| |||| |||||||| || || | |||||| |||||||| ||||| || ||| | ||||| ||||||||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|58</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581324</Hit_def>
+  <Hit_accession>58</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.118</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.5969e-75</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGTAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACATTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  ||||||||||||| |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|57</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581323</Hit_def>
+  <Hit_accession>57</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.118</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.5969e-75</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGTAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACATTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  ||||||||||||| |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|34</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581300</Hit_def>
+  <Hit_accession>34</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.118</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.5969e-75</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGTAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACATTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  ||||||||||||| |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|66</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|KP136828</Hit_def>
+  <Hit_accession>66</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|44</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581310</Hit_def>
+  <Hit_accession>44</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|43</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581309</Hit_def>
+  <Hit_accession>43</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581308</Hit_def>
+  <Hit_accession>42</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|41</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581307</Hit_def>
+  <Hit_accession>41</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|40</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581306</Hit_def>
+  <Hit_accession>40</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|39</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581305</Hit_def>
+  <Hit_accession>39</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|38</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581304</Hit_def>
+  <Hit_accession>38</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|36</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581302</Hit_def>
+  <Hit_accession>36</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|35</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581301</Hit_def>
+  <Hit_accession>35</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|32</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581298</Hit_def>
+  <Hit_accession>32</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|31</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581297</Hit_def>
+  <Hit_accession>31</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|30</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581296</Hit_def>
+  <Hit_accession>30</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|27</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581293</Hit_def>
+  <Hit_accession>27</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>7.42965e-74</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|56</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581322</Hit_def>
+  <Hit_accession>56</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|55</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581321</Hit_def>
+  <Hit_accession>55</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|54</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581320</Hit_def>
+  <Hit_accession>54</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|53</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581319</Hit_def>
+  <Hit_accession>53</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|52</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581318</Hit_def>
+  <Hit_accession>52</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|51</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581317</Hit_def>
+  <Hit_accession>51</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|50</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581316</Hit_def>
+  <Hit_accession>50</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>323</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTACTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||  || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|49</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581315</Hit_def>
+  <Hit_accession>49</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|48</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581314</Hit_def>
+  <Hit_accession>48</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|47</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581313</Hit_def>
+  <Hit_accession>47</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|46</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581312</Hit_def>
+  <Hit_accession>46</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|45</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581311</Hit_def>
+  <Hit_accession>45</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10048</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>TAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|37</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581303</Hit_def>
+  <Hit_accession>37</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>323</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTCATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGTTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTATTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGCAGATGTTATCCATTCGTTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || ||||||||||  ||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||| || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||  |||||||| ||||||||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|33</Hit_id>
+  <Hit_def>COII |Trypanosoma cruzi|JQ581299</Hit_def>
+  <Hit_accession>33</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.45668e-72</Hsp_evalue>
+      <Hsp_query-from>10021</Hsp_query-from>
+      <Hsp_query-to>10428</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>323</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>411</Hsp_align-len>
+      <Hsp_qseq>TTTCAACATTTTTATTAGTATCTAAATTAAATAATATTTATTGTACCTGAGATTTTACAGCATCGAAATTTATTGA-CGTATATTGGTTTACTATTGGCGGAATGTTTTCGTTA-GGACTT-TTACTTCGATTATGTTTATTACTATATTTTGGTCATTTAAATTTTGTTAGTTTTGATTTATGTAAAGTGGTAGGTTTTCAATGATACTGAGTTTATTTTATTTTTGGCGAAACAACTATATTCAGTAATTTAATTTTAGAAAGTGATTATATGATCGGTGATTTACGCTTATTACAGTGTAATCATGTTTTAACATTATTGAGTTTAGTAATATATAAGTTATGATTGTCTGCTGTTGATGTTATACATTCGTTTGCAATTTCAAGTTTAGGTGTTAAAGTAGAGAACC</Hsp_qseq>
+      <Hsp_hseq>TTTCTACAGTTTTATTTGTTACAAAGATAAATAATATATATTGTACATGAGATTTTATATCATCAAAATTTGTGGATACT-TATTGGTTTGTAATAGGAGTTATGTTT--ATTATGTGTTTATTATTAAGACTATGTTTATTGCTATATTTCGGTTGTTTAAATTTTGTTAGTTTTGATTTATGTAAGGTTGTAGGATTTCAATGATATTGAGTATACTTTTTATTTGGAGAAACTACAATATTCAGCAATTTAATACTTGAGAGTGATTACTTGGTAGGTGATATGCGTCTATTACAGTGCAACCATGTACTCACATTATTAAGTTTAGTAATTTATAAATTGTGAGTATCAGCTGTAGATGTTATCCATTCATTTACACTAGCTAGTTTAGGTATTAAGGTAGAGAACC</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||||| ||  | ||  |||||||||| |||||||| |||||||||| | |||| |||||| | ||   | |||||||||   || || |  ||||||   ||| |   || ||| |  || |||||||||| |||||||| |||  |||||||||||||||||||||||||||||| || ||||| ||||||||||| ||||| || ||| | ||||| ||||| || |||||||| ||||||||  | || ||||||||  || | |||||| | ||  |||||||||| || |||||  | |||||||| ||||||||||| ||||| || ||| | || ||||| |||||||| ||||| ||| || |  | ||||||||| |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81</Statistics_db-num>
+      <Statistics_db-len>39292</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>841512126</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
