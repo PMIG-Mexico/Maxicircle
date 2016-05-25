@@ -16,7 +16,7 @@ for i in $(ls *.fna);
 do 
 clustalo  --output-order=tree-order  -i $i -o $i.aln; 
 makeblastdb -in $i -dbtype 'nucl' -out $i ;
-blastn -out $i.xml -outfmt 5 -query "../Leishmania_mexicana_maxicircle.fasta" -db $i ;
+blastn -out $i.xml -outfmt 5 -query "../../Leishmania_mexicana_maxicircle.fasta" -db $i ;
 done;
 
 mkdir ALN
