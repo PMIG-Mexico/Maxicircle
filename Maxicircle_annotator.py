@@ -35,7 +35,23 @@ class BlastMaxicircle:
 					query_strand="-"
 				chromosome=best.query_id
 				rows.append([chromosome,".","exon",query_range[0],query_range[1],".",query_strand,".","ID="+protein.split("/")[-1].split(".faa")[0]])
-		
+	
+		for DNA in glob.glob("/Users/Said/Github/Maxicircle/DB/DNA/*RRNA.fna"):
+			output_file=DNA.split("/")[-1]+".xml"
+			blastn_cline = NcbiblastnCommandline(query=Maxicircle , db=DNA, 
+		                                      outfmt=5, out=output_file)
+			blastn_cline()
+			blast_qresult = SearchIO.read(output_file, 'blast-xml')
+			if len(blast_qresult)>0:
+				best=blast_qresult[0][0]
+				query_range=[x for x in best.query_range]
+				if best.query_strand>0:
+					query_strand="+"
+				else:
+					query_strand="-"
+				chromosome=best.query_id
+				rows.append([chromosome,".","exon",query_range[0],query_range[1],".",query_strand,".","ID="+DNA.split("/")[-1].split(".fna")[0]])
+
 		print(str(len(rows))+" exons found")
 		rows=iter(rows)
 		writer.writerows(rows)
